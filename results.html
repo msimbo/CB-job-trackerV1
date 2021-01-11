@@ -42,15 +42,55 @@
     <!--Sauel section Start-->
     <div class="max-w-md mx-auto overflow-hidden bg-green-500 shadow-md md:bg-blue-500 lg:bg-yellow-500 md:max-w-2xl">
         <div class="md:flex">
-          <div class="md:flex-shrink-0">
-            <!-- <img class="object-cover w-full h-48 md:w-48" src="/img/store.jpg" alt="image"> -->
-          </div>
           <div class="p-8">
             <div class="text-sm font-bold tracking-wide text-center text-black uppercase sm:text-left">Results</div>
             <a href="#" class="block mt-1 text-lg font-medium leading-tight text-black hover:underline"></a>
             <p class="mt-2 text-gray-500"></p>
           </div>
         </div>
+    </div>
+
+    <div>
+        <form action="/action_page.php" class="bg-green-500 shadow-md md:bg-blue-500 lg:bg-yellow-500 md:max-w-2xl">
+            <h1>Sort by</h1>
+            <select name="sort-by" id="sort-by">
+              <option value="best-match">Best Match</option>
+            </select>
+            <br>
+            <h1>Located Within</h1>
+            <select name="located-within" id="located-within">
+              <option value="located-within">5 Miles</option>
+              <option value="located-within">10 Miles</option>
+              <option value="located-within">15 Miles</option>
+              <option value="located-within">20 Miles</option>
+            </select>
+            <br>
+            <h1>Date Posted</h1>
+            <select name="date-posted" id="date-posted">
+              <option value="date-posted">This Month</option>
+              <option value="date-posted">Last 60 Days</option>
+              <option value="date-posted">Last 90 Days</option>
+              <option value="date-posted">Last 120 Days</option>
+            </select>
+            <br>
+            <h1>Companies</h1>
+            <select name="Companies" id="Companies">
+              <option value="Companies">Facebook</option>
+              <option value="Companies">Dell</option>
+              <option value="Companies">Hewlett-Packard</option>
+              <option value="Companies">Microsoft</option>
+            </select>
+            <br>
+            <h1>Position Level</h1>
+            <select name="position-level" id="position-level">
+              <option value="position-level">Entry Level</option>
+              <option value="position-level">Intermediate</option>
+              <option value="position-level">Advanced</option>
+              <option value="position-level">Expert</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Apply Filter">
+          </form>
     </div>
 
     <!--Sauel section end-->

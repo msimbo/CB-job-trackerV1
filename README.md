@@ -15,3 +15,18 @@ Acceptance Criteria v1
 Acceptance Criteria for v2
 Ability to favorite jobs
 Ability to send the job to a friend
+
+## Team Lead Cinnamon
+
+
+## Contributors
+
+### Xavier
+
+### Audra
+
+### Sauel
+
+### Intisam
+
+
