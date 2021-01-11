@@ -26,6 +26,8 @@ Ability to send the job to a friend
 ### Audra
 
 ### Sauel
+1. Began the results section
+2. Added dropdown list section
 
 ### Intisam
 
