@@ -39,12 +39,100 @@
         </div>
     </div>
 
-    <!--Sauel section Start-->
-    <div class="max-w-md mx-auto overflow-hidden bg-green-500 shadow-md md:bg-blue-500 lg:bg-yellow-500 md:max-w-2xl">
+<!--Sauel section Start-->
+
+    <div class="flex flex-1 bg-indigo-300">
+        
+<!--sidenav start-->
+
+        <div class="flex flex-col justify-between p-4 bg-indigo-900 md:w-48 sm:text-left">
+            <div class="flex flex-col ">
+                <div class="flex flex-1 bg-black-300">
+                    <div class="flex flex-col justify-between text-center bg-black md:w-48 sm:text-left">
+                        <div class="bg-green-500 shadow-md md:bg-blue-500 lg:bg-yellow-500 md:max-w-2xl">
+                            
+                            <form action="/action_page.php" class="text-indigo-900">
+                                <h1>Sort by</h1>
+                                <select name="sort-by" id="sort-by">
+                                <option value="best-match">Best Match</option>
+                                </select>
+                                <br>
+                                <h1>Located Within</h1>
+                                <select name="located-within" id="located-within">
+                                <option value="located-within">5 Miles</option>
+                                <option value="located-within">10 Miles</option>
+                                <option value="located-within">15 Miles</option>
+                                <option value="located-within">20 Miles</option>
+                                </select>
+                                <br>
+                                <h1>Date Posted</h1>
+                                <select name="date-posted" id="date-posted">
+                                <option value="date-posted">This Month</option>
+                                <option value="date-posted">Last 60 Days</option>
+                                <option value="date-posted">Last 90 Days</option>
+                                <option value="date-posted">Last 120 Days</option>
+                                </select>
+                                <br>
+                                <h1>Companies</h1>
+                                <select name="Companies" id="Companies">
+                                <option value="Companies">Facebook</option>
+                                <option value="Companies">Dell</option>
+                                <option value="Companies">Hewlett-Packard</option>
+                                <option value="Companies">Microsoft</option>
+                                </select>
+                                <br>
+                                <h1>Position Level</h1>
+                                <select name="position-level" id="position-level">
+                                <option value="position-level">Entry Level</option>
+                                <option value="position-level">Intermediate</option>
+                                <option value="position-level">Advanced</option>
+                                <option value="position-level">Expert</option>
+                                </select>
+                                <br><br>
+                                <input type="submit" value="Apply Filter">
+                            </form>
+                            
+                        </div>
+                    </div>    
+                </div>    
+            </div> 
+        </div>
+        
+<!--sidenav end-->
+
+<!--mid content start-->
+
+        <div class="max-w-md mx-auto overflow-hidden bg-green-500 shadow-md md:bg-blue-500 lg:bg-yellow-500 md:max-w-xl">
+            <div class="md:flex">
+              <div class="p-6">
+                <div class="text-base font-bold tracking-wide text-center text-indigo-900 uppercase sm:text-left">Results</div>
+                    <br>
+                    <h1 class="mt-2 text-base text-indigo-900">
+                        Full Stack Web Developer* at Odyssey Systems
+                        Lexington, MA
+                    </h1>
+                    <div>
+                    <a href="#" class="block mt-1 text-sm font-medium leading-tight text-indigo-900 hover:underline">Company</a>
+                    <a href="#" class="block mt-1 text-sm font-medium leading-tight text-indigo-900 hover:underline">Location</a>
+                    </div>
+                    <br>
+                    <p>
+                        Our client develops and demonstrates tactically-relevant space situational awareness (SSA) in support of space control. 
+                        The client focuses on the techniques, operational concepts, and advanced sensor systems that are needed to obtain timely and predictive information about space objects. 
+                        The client is in need of a Software Programmer to aid in the development of software to support their mission
+                    </p>
+              </div>
+            </div>
+        </div>
+        
+<!--mid content end-->
+    </div>
+    
+    <!-- <div class="max-w-md mx-auto overflow-hidden bg-green-500 shadow-md md:bg-blue-500 lg:bg-yellow-500 md:max-w-2xl">
         <div class="md:flex">
           <div class="p-8">
             <div class="text-sm font-bold tracking-wide text-center text-indigo-900 uppercase sm:text-left">Results</div>
-                <br><br>
+                <br>
                 <h1 class="mt-2 text-base text-indigo-900">
                     Full Stack Web Developer* at Odyssey Systems
                     Lexington, MA
@@ -61,54 +149,62 @@
                 </p>
           </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="flex-col bg-green-500 shadow-md md:bg-blue-500 lg:bg-yellow-500 md:max-w-2xl">
-        <div class="">
-            <form action="/action_page.php" class="text-indigo-900">
-                <h1>Sort by</h1>
-                <select name="sort-by" id="sort-by">
-                <option value="best-match">Best Match</option>
-                </select>
-                <br>
-                <h1>Located Within</h1>
-                <select name="located-within" id="located-within">
-                <option value="located-within">5 Miles</option>
-                <option value="located-within">10 Miles</option>
-                <option value="located-within">15 Miles</option>
-                <option value="located-within">20 Miles</option>
-                </select>
-                <br>
-                <h1>Date Posted</h1>
-                <select name="date-posted" id="date-posted">
-                <option value="date-posted">This Month</option>
-                <option value="date-posted">Last 60 Days</option>
-                <option value="date-posted">Last 90 Days</option>
-                <option value="date-posted">Last 120 Days</option>
-                </select>
-                <br>
-                <h1>Companies</h1>
-                <select name="Companies" id="Companies">
-                <option value="Companies">Facebook</option>
-                <option value="Companies">Dell</option>
-                <option value="Companies">Hewlett-Packard</option>
-                <option value="Companies">Microsoft</option>
-                </select>
-                <br>
-                <h1>Position Level</h1>
-                <select name="position-level" id="position-level">
-                <option value="position-level">Entry Level</option>
-                <option value="position-level">Intermediate</option>
-                <option value="position-level">Advanced</option>
-                <option value="position-level">Expert</option>
-                </select>
-                <br><br>
-                <input type="submit" value="Apply Filter">
-            </form>
-        </div>
-    </div>
+<!-- sidenav -->
 
-    <!--Sauel section end-->
+
+        <!-- <div class="flex flex-col h-screen">
+            <div class="flex flex-1 bg-black-300">
+                <div class="flex flex-col justify-between p-6 text-center text-white bg-black md:w-56 sm:text-left">
+                    <div class="flex-col bg-green-500 shadow-md md:bg-blue-500 lg:bg-yellow-500 md:max-w-2xl">
+                        <div class="">
+                            <form action="/action_page.php" class="text-indigo-900">
+                                <h1>Sort by</h1>
+                                <select name="sort-by" id="sort-by">
+                                <option value="best-match">Best Match</option>
+                                </select>
+                                <br>
+                                <h1>Located Within</h1>
+                                <select name="located-within" id="located-within">
+                                <option value="located-within">5 Miles</option>
+                                <option value="located-within">10 Miles</option>
+                                <option value="located-within">15 Miles</option>
+                                <option value="located-within">20 Miles</option>
+                                </select>
+                                <br>
+                                <h1>Date Posted</h1>
+                                <select name="date-posted" id="date-posted">
+                                <option value="date-posted">This Month</option>
+                                <option value="date-posted">Last 60 Days</option>
+                                <option value="date-posted">Last 90 Days</option>
+                                <option value="date-posted">Last 120 Days</option>
+                                </select>
+                                <br>
+                                <h1>Companies</h1>
+                                <select name="Companies" id="Companies">
+                                <option value="Companies">Facebook</option>
+                                <option value="Companies">Dell</option>
+                                <option value="Companies">Hewlett-Packard</option>
+                                <option value="Companies">Microsoft</option>
+                                </select>
+                                <br>
+                                <h1>Position Level</h1>
+                                <select name="position-level" id="position-level">
+                                <option value="position-level">Entry Level</option>
+                                <option value="position-level">Intermediate</option>
+                                <option value="position-level">Advanced</option>
+                                <option value="position-level">Expert</option>
+                                </select>
+                                <br><br>
+                                <input type="submit" value="Apply Filter">
+                            </form>
+                        </div>
+                    </div>
+                </div>    
+            </div>    
+        </div> -->
+<!--Sauel section end-->
 
 
     <!-- Footer section -->
