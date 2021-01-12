@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" type="image/jpg" href="#"/>
+    <link rel="shortcut icon" href="img/liber3.ico">
     <link rel="stylesheet" href="dist/tailwind.css">
     <title>Search Results</title>
 </head>
@@ -48,33 +48,36 @@
         <div class="flex flex-col justify-between p-4 bg-indigo-900 md:w-48 sm:text-left">
             <div class="flex flex-col ">
                 <div class="flex flex-1 bg-black-300">
-                    <div class="flex flex-col justify-between text-center bg-black md:w-48 sm:text-left">
+                    <div class="flex flex-col justify-between text-center md:w-48 sm:text-left">
                         <div class="bg-green-500 shadow-md md:bg-blue-500 lg:bg-yellow-500 md:max-w-2xl">
                             
                             <form action="/action_page.php" class="text-indigo-900">
                                 <h1>Sort by</h1>
-                                <select name="sort-by" id="sort-by">
+                                <select name="sort-by" id="sort-by" class="box-border w-32 rounded">
+                                <option value="most-recent">Most Recent</option>
                                 <option value="best-match">Best Match</option>
                                 </select>
                                 <br>
                                 <h1>Located Within</h1>
-                                <select name="located-within" id="located-within">
-                                <option value="located-within">5 Miles</option>
+                                <select name="located-within" id="located-within" class="box-border w-32 rounded">
                                 <option value="located-within">10 Miles</option>
                                 <option value="located-within">15 Miles</option>
-                                <option value="located-within">20 Miles</option>
+                                <option value="located-within">25 Miles</option>
+                                <option value="located-within">50 Miles</option>
+                                <option value="located-within">100 Miles</option>
                                 </select>
                                 <br>
                                 <h1>Date Posted</h1>
-                                <select name="date-posted" id="date-posted">
-                                <option value="date-posted">This Month</option>
-                                <option value="date-posted">Last 60 Days</option>
-                                <option value="date-posted">Last 90 Days</option>
-                                <option value="date-posted">Last 120 Days</option>
+                                <select name="date-posted" id="date-posted" class="box-border w-32 rounded">
+                                <option value="date-posted">Anytime</option>
+                                <option value="date-posted">Within 1 Day</option>
+                                <option value="date-posted">Within 7 Day</option>
+                                <option value="date-posted">Within 14 Day</option>
+                                <option value="date-posted">Within 30 Day</option>
                                 </select>
                                 <br>
                                 <h1>Companies</h1>
-                                <select name="Companies" id="Companies">
+                                <select name="Companies" id="Companies" class="box-border w-32 rounded">
                                 <option value="Companies">Facebook</option>
                                 <option value="Companies">Dell</option>
                                 <option value="Companies">Hewlett-Packard</option>
@@ -82,14 +85,15 @@
                                 </select>
                                 <br>
                                 <h1>Position Level</h1>
-                                <select name="position-level" id="position-level">
+                                <select name="position-level" id="position-level" class="box-border w-32 rounded">
                                 <option value="position-level">Entry Level</option>
                                 <option value="position-level">Intermediate</option>
                                 <option value="position-level">Advanced</option>
                                 <option value="position-level">Expert</option>
                                 </select>
                                 <br><br>
-                                <input type="submit" value="Apply Filter">
+                                <input type="submit" value="Apply Filter" class="box-border w-32 rounded">
+                                
                             </form>
                             
                         </div>
@@ -112,8 +116,8 @@
                         Lexington, MA
                     </h1>
                     <div>
-                    <a href="#" class="block mt-1 text-sm font-medium leading-tight text-indigo-900 hover:underline">Company</a>
-                    <a href="#" class="block mt-1 text-sm font-medium leading-tight text-indigo-900 hover:underline">Location</a>
+                    <a href="#" class="mt-1 text-sm font-medium leading-tight text-indigo-900 hover:underline">Company</a> 
+                    <a href="#" class="mt-1 text-sm font-medium leading-tight text-indigo-900 hover:underline">Location</a>
                     </div>
                     <br>
                     <p>
