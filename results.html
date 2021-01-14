@@ -5,19 +5,47 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" type="image/jpg" href="#"/>
+    <link rel="shortcut icon" href="img/liber3.ico">
     <link rel="stylesheet" href="dist/tailwind.css">
     <title>Search Results</title>
 </head>
 
 <body>
-    <div class="">
+
+    <nav>
+        <div class="container flex items-center justify-between px-6 py-4 mx-auto">
+        <a class="text-2xl font-bold text-indigo-800 lg:text-4xl" href="#">
+            Liber
+        </a>
+        <div class="block lg:hidden">
+            <button class="flex items-center px-3 py-2 text-gray-500 border border-gray-600 rounded appearance-none hover:text-gray-800 hover:border-teal-500 focus:outline-none">
+            <svg class="w-3 h-3 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <title>Menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+            </button>
+        </div>
+        <div class="hidden lg:block">
+            <ul class="inline-flex text-indigo-800">
+            <li><a class="px-4" href="/">Home</a></li>
+            <li><a class="px-4" href="/">Job Seekers</a></li>
+            <li><a class="px-4" href="/">Employers</a></li>
+            <li><a class="px-4 hover:text-gray-800" href="#">About</a></li>
+            <li><a class="px-4 hover:text-gray-800" href="#">Contact</a></li>
+            <li><a class="px-4 font-bold" href="/">Login</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    
+    <!-- <div class=""> -->
 
         <!-- header items below -->
-        <div class="">
+        <!-- <div class=""> -->
             <!--biggest div-->
 
-            <a href="#">
+            <!-- <a href="#">
                 <div class=""><img src="" alt="our logo"></div>
             </a>
             <div class="">
@@ -37,13 +65,166 @@
 
             </div>
         </div>
-    </div>
+    </div> -->
+
+<!--Sauel section Start-->
+
+    <div class="flex flex-1 bg-indigo-500">
+        
+<!--sidenav start-->
+
+        <div class="flex flex-col justify-between h-screen p-4 bg-indigo-800 md:w-54 sm:text-left">
+            <div class="flex flex-col ">
+                <div class="flex flex-1 p-6 bg-purple-300">
+                    <div class="flex flex-col justify-between text-center md:w-48 sm:text-left">
+                        <div class="py-16 pr-16 bg-green-500 shadow-md md:bg-blue-500 lg:bg-yellow-500 md:max-w-2xl">
+                            
+                            <form action="/action_page.php" class="text-indigo-900">
+                                <h1>Sort by</h1>
+                                <select name="sort-by" id="sort-by" class="box-border w-32 rounded">
+                                <option value="most-recent">Most Recent</option>
+                                <option value="best-match">Best Match</option>
+                                </select>
+                                <br><br>
+                                <h1>Located Within</h1>
+                                <select name="located-within" id="located-within" class="box-border w-32 rounded">
+                                <option value="located-within">10 Miles</option>
+                                <option value="located-within">15 Miles</option>
+                                <option value="located-within">25 Miles</option>
+                                <option value="located-within">50 Miles</option>
+                                <option value="located-within">100 Miles</option>
+                                </select>
+                                <br><br>
+                                <h1>Date Posted</h1>
+                                <select name="date-posted" id="date-posted" class="box-border w-32 rounded">
+                                <option value="date-posted">Anytime</option>
+                                <option value="date-posted">Within 1 Day</option>
+                                <option value="date-posted">Within 7 Day</option>
+                                <option value="date-posted">Within 14 Day</option>
+                                <option value="date-posted">Within 30 Day</option>
+                                </select>
+                                <br><br>
+                                <h1>Companies</h1>
+                                <select name="Companies" id="Companies" class="box-border w-32 rounded">
+                                <option value="Companies">Facebook</option>
+                                <option value="Companies">Dell</option>
+                                <option value="Companies">Hewlett-Packard</option>
+                                <option value="Companies">Microsoft</option>
+                                </select>
+                                <br><br>
+                                <h1>Position Level</h1>
+                                <select name="position-level" id="position-level" class="box-border w-32 rounded">
+                                <option value="position-level">Entry Level</option>
+                                <option value="position-level">Intermediate</option>
+                                <option value="position-level">Advanced</option>
+                                <option value="position-level">Expert</option>
+                                </select>
+                                <br><br><br>
+                                <input type="submit" value="Apply Filter" class="box-border w-32 rounded">
+                                
+                            </form>
+                            
+                        </div>
+                    </div>    
+                </div>    
+            </div> 
+        </div>
+        
+<!--sidenav end-->
+
+<!--mid content start-->
+
+        <div class="max-w-md mx-auto overflow-hidden bg-green-500 shadow-md md:bg-blue-500 lg:bg-yellow-500 md:max-w-4xl">
+            <div class="p-6 bg-purple-300 md:flex">
+              <div class="p-16 bg-green-600">
+                <div class="text-base font-bold tracking-wide text-center text-indigo-900 uppercase sm:text-left">Results</div>
+                    <br>
+                    <h1 class="mt-2 text-base text-indigo-900">
+                        Full Stack Web Developer* at Odyssey Systems
+                        Lexington, MA
+                    </h1>
+                    <div>
+                    <a href="#" class="mt-1 text-sm font-medium leading-tight text-indigo-900 hover:underline">Company</a> 
+                    <a href="#" class="mt-1 text-sm font-medium leading-tight text-indigo-900 hover:underline">Location</a>
+                    </div>
+                    <br>
+                    <p>
+                        Our client develops and demonstrates tactically-relevant space situational awareness (SSA) in support of space control. 
+                        The client focuses on the techniques, operational concepts, and advanced sensor systems that are needed to obtain timely and predictive information about space objects. 
+                        The client is in need of a Software Programmer to aid in the development of software to support their mission
+                    </p>
+              </div>
+            </div>
+        </div>
+        
+
+<!--Sauel section end-->
 
 
     <!-- Footer section -->
-    <div class="">
+
+    <footer class="bg-white">
+        <div class="container px-6 pt-10 pb-6 mx-auto">
+        <div class="flex flex-wrap text-indigo-800">
+            <div class="w-full text-center md:w-1/4 md:text-left">
+            <h5 class="mb-6 font-bold uppercase">Links</h5>
+            <ul class="mb-4 ">
+                <li class="mt-2">
+                <a href="#" class="text-indigo-800 hover:underline hover:text-orange-500">FAQ</a>
+                </li>
+                <li class="mt-2">
+                <a href="#" class="text-indigo-800 hover:underline hover:text-orange-500">Help</a>
+                </li>
+                <li class="mt-2">
+                <a href="#" class="text-indigo-800 hover:underline hover:text-orange-500">Support</a>
+                </li>
+            </ul>
+            </div>
+            <div class="w-full text-center md:w-1/4 md:text-left">
+            <h5 class="mb-6 font-bold uppercase">Legal</h5>
+            <ul class="mb-4">
+                <li class="mt-2">
+                <a href="#" class="text-indigo-800 hover:underline hover:text-orange-500">Terms</a>
+                </li>
+                <li class="mt-2">
+                <a href="#" class="text-indigo-800 hover:underline hover:text-orange-500">Privacy</a>
+                </li>
+            </ul>
+            </div>
+            <div class="w-full text-center md:w-1/4 md:text-left">
+            <h5 class="mb-6 font-bold uppercase">Social</h5>
+            <ul class="mb-4">
+                <li class="mt-2">
+                <a href="#" class="text-indigo-800 hover:underline hover:text-orange-500">Facebook</a>
+                </li>
+                <li class="mt-2">
+                <a href="#" class="text-indigo-800 hover:underline hover:text-orange-500">Linkedin</a>
+                </li>
+                <li class="mt-2">
+                <a href="#" class="text-indigo-800 hover:underline hover:text-orange-500">Twitter</a>
+                </li>
+            </ul>
+            </div>
+            <div class="w-full text-center md:w-1/4 md:text-left">
+            <h5 class="mb-6 font-bold uppercase">Company</h5>
+            <ul class="mb-4">
+                <li class="mt-2">
+                <a href="#" class="text-indigo-800 hover:underline hover:text-orange-500">Official Blog</a>
+                </li>
+                <li class="mt-2">
+                <a href="#" class="text-indigo-800 hover:underline hover:text-orange-500">About Us</a>
+                </li>
+                <li class="mt-2">
+                <a href="#" class="text-indigo-800 hover:underline hover:text-orange-500">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- <div class=""> -->
         <!--biggest div-->
-        <div class="">
+        <!-- <div class="">
             <ul>
                 <li></li>
                 <li></li>
@@ -59,7 +240,11 @@
 
         <div class=""></div>
 
-    </div>
+    </div> -->
+
+    <script>
+
+    </script>
 
 </body>
 
