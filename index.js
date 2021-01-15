@@ -6,6 +6,11 @@ const locationSearch = document.querySelector("#location-search")
 
 const searchBtn = document.querySelector('#search')
 
+searchBtn.addEventListener('submit', function(){
+
+
+})
+
 // const keywordMenu = document.querySelector("#keyword-menu")
 
 // const locationMenu = document.querySelector("#location-menu")
