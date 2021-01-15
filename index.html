@@ -41,11 +41,108 @@
         <!-- top section (Xavier) below -->
         
 
+
         <div class="flex flex-col h-screen text-center " style="background-image: url(img/hero-image.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; ">
             <div class="text-center"></div>
                 <h1 class="italic text-7xl">Liber</h2>
                 <h3 class="">Some extra script</h3>
             </div>
+
+            <form id="search-form" class="flex justify-center space-x-24">
+                
+                <div>
+                    <input class="p-6 px-24 shadow-2xl" placeholder="Job Title, Company, or Keywords" type="text" id="keyword-search">
+
+                    <div class="bg-white hidden" id="keyword-menu">
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">A++</p>
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Adobe Photoshop</p>
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Account Management</p>
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Assistant</p>
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Analytical Skills</p>
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Chief Information Officer</p>
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Consultant</p>
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">C++</p>
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Designer</p>
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Developer</p>
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Engineer</p>
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">HTML</p>
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Manager</p>
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Programmer</p>
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Statistician</p>
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">SQL</p>
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Support</p>
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Technician</p>
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Visual Basic</p>
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">XML</p>
+                    
+                    </div>
+
+                </div>
+
+                <div>
+                    <input class="p-6 px-24 shadow-2xl" placeholder="City, State, or Zip" type="text" 
+                    id="location-search">
+
+                    <div class="bg-white hidden" id="location-menu">
+                       <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Alabama	Montgomery	AL</p>
+                        <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Alaska	Juneau	AK</p>
+                        <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Arizona	Phoenix	AZ
+                        <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Arkansas	Little Rock	AR
+                       <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">California	Sacramento	CA
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Colorado	Denver	CO
+                       <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Connecticut	Hartford	CT
+                       <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Delaware	Dover	DE
+                       <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Florida	Tallahassee	FL
+                       <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Georgia	Atlanta	GA
+                       <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Hawaii	Honolulu	HI
+                       <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Idaho	Boise	ID
+                       <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Illinois	Springfield	IL
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Indiana	Indianapolis	IN
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Iowa	Des Moines	IA
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Kansas	Topeka	KS
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Kentucky	Frankfort	KY
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Louisiana	Baton Rouge	LA
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Maine	Augusta	ME
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Maryland	Annapolis	MD
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Massachusetts	Boston	MA
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Michigan	Lansing	MI
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Minnesota	St. Paul	MN
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Mississippi	Jackson	MS
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Missouri	Jefferson City	MO
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Montana	Helena	MT
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Nebraska	Lincoln	NE
+                      <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Nevada	Carson City	NV
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">New Hampshire	Concord	NH
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">New Jersey	Trenton	NJ
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">New Mexico	Santa Fe	NM
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">New York	Albany	NY
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">North Carolina	Raleigh	NC
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">North Dakota	Bismarck	ND
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Ohio	Columbus	OH
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Oklahoma	Oklahoma City	OK
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Oregon	Salem	OR
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Pennsylvania	Harrisburg	PA
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Rhode Island	Providence	RI
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">South Carolina	Columbia	SC
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">South Dakota	Pierre	SD
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Tennessee	Nashville	TN
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Texas	Austin	TX
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Utah	Salt Lake City	UT
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Vermont	Montpelier	VT
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Virginia	Richmond	VA
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Washington	Olympia	WA
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">West Virginia Charleston	WV
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Wisconsin Madison	WI
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Wyoming Cheyenne	WY
+                    </div>
+          
+
+
+                </div>
+
+
+                <button class=" flex bg-yellow-300 p-6 text-white border-4 cursor-pointer hover:bg-blue-300 shadow-2xl"><a href="results.html">Search Jobs</a></button>
+            </form>
         </div>
 
 
@@ -141,7 +238,7 @@
         
     </script>
 
-
+    <script src="index.js"></script>
 </body>
 
 </html>
