@@ -20,3 +20,22 @@ locationSearch.addEventListener('click', function(){
     locationMenu.classList.remove('hidden')
 
 })
+
+window.addEventListener('click', function(e){
+    if(e.target !== locationSearch){
+        locationMenu.classList.add('hidden')
+    } else {
+        return false
+    }
+
+})
+
+window.addEventListener('click', function(e){
+    if(e.target !== keywordSearch){
+        keywordMenu.classList.add('hidden')
+    } else {
+        return false
+    }
+
+})
+
