@@ -7,9 +7,16 @@ const locationSearch = document.querySelector("#location-search")
 const keywordMenu = document.querySelector("#keyword-menu")
 
 const locationMenu = document.querySelector("#location-menu")
+
 keywordSearch.addEventListener('click', function(){
+    keywordMenu.classList.remove('hidden')
 
 
 
+
+})
+
+locationSearch.addEventListener('click', function(){
+    locationMenu.classList.remove('hidden')
 
 })
