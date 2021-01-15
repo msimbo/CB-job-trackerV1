@@ -1,51 +1,53 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="img/liber8.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/tailwind.css">
-    <title>Liber Home</title>
+    <title>Job Tracker v1</title>
 </head>
 
-<body>
 
-    <nav>
-        <div class="flex items-center justify-between px-6 py-6 mx-auto bg-indigo-900 border-4 border-yellow-400 rounded-md">
-            <a class="pl-6 text-2xl font-bold text-white lg:text-4xl" href="index.html">
-                Libre
-            </a>
-            <div class="block lg:hidden">
-                <button class="flex items-center px-3 py-2 text-yellow-400 border border-yellow-400 rounded appearance-none hover:text-yellow-300 hover:border-yellow-300 focus:outline-none">
-                <svg class="w-3 h-3 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <title>Menu</title>
-                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-                </svg>
-                </button>
+<body>
+    <!-- outermost bg -->
+<!-- 
+    <div class=""> -->
+        <!-- header (Cinnamon) below -->
+
+        <!-- <div class=""> -->
+
+            <!-- header items below -->
+            <!-- <div class=""> -->
+                <!--biggest div-->
+
+                <!-- <a href="#">
+                    <div class=""><img src="" alt="our logo"></div>
+                </a>
+                <div class="">
+                    <div class="">
+                        <a href="#">
+                            <div class="">Job Seekers</div>
+                        </a>
+                    </div>
+
+                    <div class="">
+                        <a href="#">
+                            <div class="">Employers</div>
+                        </a>
+                    </div>
+
+
+
+                </div>
             </div>
-            <div class="hidden lg:block">
-                <ul class="inline-flex text-white">
-                    <li><a class="px-4 hover:underline hover:text-yellow-400" href="/">Home</a></li>
-                    <li><a class="px-4 hover:underline hover:text-yellow-400" href="/">Job Seekers</a></li>
-                    <li><a class="px-4 hover:underline hover:text-yellow-400" href="/">Employers</a></li>
-                    <li><a class="px-4 hover:underline hover:text-yellow-400" href="#">About</a></li>
-                    <li><a class="px-4 hover:underline hover:text-yellow-400" href="contact.html">Contact</a></li>
-                    <li><a class="px-4 font-bold hover:underline hover:text-yellow-400" href="user-loginpg.html">Login</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+        </div> -->
 
         <!-- top section (Xavier) below -->
-        
 
-
-        <div class="flex flex-col h-screen text-center " style="background-image: url(img/hero-image.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; ">
-            <div class="text-center"></div>
-                <h1 class="italic text-7xl">Liber</h2>
-                <h3 class="">Some extra script</h3>
+        <div class="flex flex-col h-screen text-center" style="background-image: url(img/hero2-image.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; ">
+            <div class="flex m-20 text-center bg-blue-700 py-8 mx-48 px-10">
+                <h1 class="text-5xl bold text-white">The space for the most relevant jobs in Web Development. Delivered to you at once.</h2>
             </div>
 
             <form id="search-form" class="flex justify-center space-x-24">
@@ -53,7 +55,7 @@
                 <div>
                     <input class="p-6 px-24 shadow-2xl" placeholder="Job Title, Company, or Keywords" type="text" id="keyword-search">
 
-                    <div class="bg-white hidden" id="keyword-menu">
+                    <!-- <div class="bg-white hidden" id="keyword-menu">
                       <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">A++</p>
                       <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Adobe Photoshop</p>
                       <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Account Management</p>
@@ -75,7 +77,7 @@
                       <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Visual Basic</p>
                       <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">XML</p>
                     
-                    </div>
+                    </div> -->
 
                 </div>
 
@@ -83,7 +85,7 @@
                     <input class="p-6 px-24 shadow-2xl" placeholder="City, State, or Zip" type="text" 
                     id="location-search">
 
-                    <div class="bg-white hidden" id="location-menu">
+                    <!-- <div class="bg-white hidden" id="location-menu">
                        <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Alabama	Montgomery	AL</p>
                         <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Alaska	Juneau	AK</p>
                         <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Arizona	Phoenix	AZ
@@ -105,7 +107,7 @@
                     <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Maine	Augusta	ME
                     <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Maryland	Annapolis	MD
                     <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Massachusetts	Boston	MA
-                    <!-- <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Michigan	Lansing	MI
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Michigan	Lansing	MI
                     <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Minnesota	St. Paul	MN
                     <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Mississippi	Jackson	MS
                     <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Missouri	Jefferson City	MO
@@ -133,15 +135,15 @@
                     <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Washington	Olympia	WA
                     <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">West Virginia Charleston	WV
                     <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Wisconsin Madison	WI
-                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Wyoming Cheyenne.	WY -->
-                    </div>
+                    <p class="border-b-2 py-1 cursor-pointer hover:bg-yellow-300">Wyoming Cheyenne.	WY
+                    </div> -->
           
 
 
                 </div>
 
 
-                <button class=" flex bg-yellow-300 p-6 text-white border-4 cursor-pointer hover:bg-blue-300 shadow-2xl"><a href="results.html">Search Jobs</a></button>
+                <button id="search" class=" flex bg-yellow-300 p-6 text-white border-4 cursor-pointer hover:bg-blue-300 shadow-2xl"><a href="results.html">Search Jobs</a></button>
             </form>
         </div>
 
@@ -153,7 +155,13 @@
 
         <!-- middle section with carousel (everyone)-->
 
-        
+        <div class="">
+            <!-- biggest mid div -->
+
+        </div>
+
+        <hr>
+
     
         <!-- middle (Audra) company partnerships section -->
 
@@ -174,69 +182,25 @@
 
     <!-- footer (Sauel) section -->
 
-    <footer class="text-indigo-800 bg-indigo-900 border-4 border-yellow-400">
-        <div class="px-6 pt-10 pb-6 mx-auto md:container">
-            <div class="flex flex-wrap">
-                <div class="w-full text-center md:w-1/4 md:text-left">
-                    <h5 class="mb-6 font-bold text-white uppercase">Links</h5>
-                    <ul class="mb-4">
-                        <li class="mt-2">
-                        <a href="#" class="text-white hover:underline hover:text-yellow-400">FAQ</a>
-                        </li>
-                        <li class="mt-2">
-                        <a href="#" class="text-white hover:underline hover:text-yellow-400">Help</a>
-                        </li>
-                        <li class="mt-2">
-                        <a href="#" class="text-white hover:underline hover:text-yellow-400">Support</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="w-full text-center md:w-1/4 md:text-left">
-                    <h5 class="mb-6 font-bold text-white uppercase">Legal</h5>
-                    <ul class="mb-4">
-                        <li class="mt-2">
-                        <a href="#" class="text-white hover:underline hover:text-yellow-400">Terms</a>
-                        </li>
-                        <li class="mt-2">
-                        <a href="#" class="text-white hover:underline hover:text-yellow-400">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="w-full text-center md:w-1/4 md:text-left">
-                    <h5 class="mb-6 font-bold text-white uppercase">Social</h5>
-                    <ul class="mb-4">
-                        <li class="mt-2">
-                        <a href="#" class="text-white hover:underline hover:text-yellow-400">Facebook</a>
-                        </li>
-                        <li class="mt-2">
-                        <a href="#" class="text-white hover:underline hover:text-yellow-400">Linkedin</a>
-                        </li>
-                        <li class="mt-2">
-                        <a href="#" class="text-white hover:underline hover:text-yellow-400">Twitter</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="w-full text-center md:w-1/4 md:text-left">
-                    <h5 class="mb-6 font-bold text-white uppercase">Company</h5>
-                    <ul class="mb-4">
-                        <li class="mt-2">
-                        <a href="#" class="text-white hover:underline hover:text-yellow-400">Official Blog</a>
-                        </li>
-                        <li class="mt-2">
-                        <a href="#" class="text-white hover:underline hover:text-yellow-400">About Us</a>
-                        </li>
-                        <li class="mt-2">
-                        <a href="contact.html" class="text-white hover:underline hover:text-yellow-400">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    <div class="">
+        <!--biggest div-->
+        <div class="">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
         </div>
-    </footer>
 
-    <script>
-        
-    </script>
+
+        <div class="">Follow Us
+            <img class="" src=""></a>
+        </div>
+
+        <div class=""></div>
+
+    </div>
 
     <script src="index.js"></script>
 </body>
