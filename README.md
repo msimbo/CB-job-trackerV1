@@ -24,6 +24,9 @@ Ability to send the job to a friend
 ### Xavier
 
 ### Audra
+1. Create Carousel section on launch page.
+2. Add and style New Account page with connection to launch page.
+3. Add and style Login page with connection to launch page.
 
 ### Sauel
 1. Began the results section
